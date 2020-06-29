@@ -165,8 +165,14 @@ body {
         font-size: inherit;
     }
     .section-header h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
         font-size: 1.1rem;
     }
+
+
 
     /* HERO SECTION */
     .hero-text {
@@ -183,15 +189,13 @@ body {
         font-size: inherit;
         margin-top: 1rem;   
     }
-    /* CTA SECTION */
-    .cta-section .d-flex {
-        flex-direction: column;
-    }
 
-    .cta-section .d-flex > * {
-        margin-top: 3rem;
+    .contact-details {
+        text-align: center;
+        margin: auto;
     }
-
+    
+    
     .send-message {
         padding: 5rem;
         border-radius: 1rem;
@@ -199,6 +203,12 @@ body {
         margin-bottom: 3rem;
         margin-right: 1.5rem;
         margin-left: 1.5rem;
+    }
+
+    .form-button {
+        font-size: 2.5rem;
+        font-weight: 500;
+        padding: 1.3rem 0;
     }
 
 }
