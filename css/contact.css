@@ -164,14 +164,12 @@ body {
     .section-header  {
         font-size: inherit;
     }
-    .section-header h2, h3 {
+    .section-header h2 {
         font-size: 1.2rem;
     }
-
-    h3 {
+     h3 {
         font-size: 1.1rem;
     }
-
 
 
     /* HERO SECTION */
